@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indian Temples</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/1.css">
+  <style>
+    
+    .hero-section {
+      background-image: url('hero-background.jpg');
+      background-size: cover;
+      color: #fff;
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .testimonial {
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .event {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .map-container {
+      position: relative;
+      overflow: hidden;
+      padding-top: 56.25%; /* Aspect ratio 16:9 */
+    }
+
+    .map-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Indian Temples</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="northDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          North India
+        </a>
+        <div class="dropdown-menu" aria-labelledby="northDropdown">
+          <a class="dropdown-item" href="/balaji.html">Tirupati Balaji</a>
+          <a class="dropdown-item" href="/vaishno.html">Vaishno Devi</a>
+          <a class="dropdown-item" href="/kedarnath.html">Kedarnath</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="southDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          South India
+        </a>
+        <div class="dropdown-menu" aria-labelledby="southDropdown">
+          <a class="dropdown-item" href="/meenakshi.html">Meenakshi Temple</a>
+          <a class="dropdown-item" href="/briha.html">Brihadeeswarar Temple</a>
+          <a class="dropdown-item" href="/padmana.html">Padmanabhaswamy Temple</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="eastDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          East India
+        </a>
+        <div class="dropdown-menu" aria-labelledby="eastDropdown">
+          <a class="dropdown-item" href="/jag.html">Jagannath Temple</a>
+          <a class="dropdown-item" href="/konark.html">Konark Sun Temple</a>
+          <a class="dropdown-item" href="/kamakhaya.html">Kamakhya Temple</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="westDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          West India
+        </a>
+        <div class="dropdown-menu" aria-labelledby="westDropdown">
+          <a class="dropdown-item" href="/somnath.html">Somnath Temple</a>
+          <a class="dropdown-item" href="/dwarka.html">Dwarkadhish Temple</a>
+          <a class="dropdown-item" href="/ranakpur.html">Ranakpur Jain Temple</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+<section class="hero-section">
+  <div class="container">
+    <h1 class="display-4">Discover the Beauty of Indian Temples</h1>
+    <p class="lead">Explore the rich cultural heritage and spirituality of India's sacred places.</p>
+    <a href="#featured-temples" class="btn btn-primary btn-lg">Explore More</a>
+  </div>
+</section>
+
+
+<video autoplay muted loop id="bg-video">
+  <source src="/119843-719443761_large.mp4" type="video/mp4">
+  <h1 style="color: aliceblue;">INDIAN TEMPLES</h1>
+</video>
+
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-3 mb-4">
+      <a href="/northzone.html">
+        <div class="thumbnail">
+          <img src="/11645967745alusu22eljlipz14ucd5qexnrvpdyyc8cu10m50hzrylcu3qhtnxel2gsnaqg2tgdbcyxvnmzvcscrof1ksda5aanvfzzt98vo5o.jpg" alt="North India" class="img-thumbnail" style="height: 300px; width: 300px;">
+          <div class="caption">
+            <p class="text-center">North India</p>
+            <p class="text-center">Explore the famous temples in North India.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-3 mb-4">
+      <a href="/southzone.html">
+        <div class="thumbnail">
+          <img src="/Meenakshi-Temple-ili-334-img-1.jpg" alt="South India" class="img-thumbnail" style="height: 300px; width: 300px;">
+          <div class="caption">
+            <p class="text-center">South India</p>
+            <p class="text-center">Discover the ancient temples of South India.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-3 mb-4">
+      <a href="/eastzone.html">
+        <div class="thumbnail">
+          <img src="/159.jpg" alt="East India" class="img-thumbnail" style="height: 300px; width: 300px;">
+          <div class="caption">
+            <p class="text-center">East India</p>
+            <p class="text-center">Visit the spiritual sites in East India.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-3 mb-4">
+      <a href="/westzone.html">
+        <div class="thumbnail">
+          <img src="/Somnath-Temple-Images.jpg" alt="West India" class="img-thumbnail" style="height: 300px; width: 300px;">
+          <div class="caption">
+            <p class="text-center">West India</p>
+            <p class="text-center">Explore the iconic temples of West India.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Testimonials</h2>
+      
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="testimonial">
+            <p>"Visiting these temples was a life-changing experience for me. Highly recommended!"</p>
+            <p class="text-right"><em>- John Doe</em></p>
+          </div>
+          <div class="testimonial">
+            <p>"The spiritual atmosphere of these temples is truly captivating. A must-visit for everyone."</p>
+            <p class="text-right"><em>- Jane Smith</em></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4" style="color: #fefdfd;">Upcoming Events</h2>
+    
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="event">
+            <h5 style="color: #ebe5e5;">Annual Festival at Tirupati Balaji</h5>
+            <p style="color: #ebd8d8;">Date: April 15-18, 2024</p>
+            <p style="color: #f5eaea;">Join us for a vibrant celebration of culture and spirituality.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Latest News</h2>
+     
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Renovation Update: Meenakshi Temple</h5>
+              <p class="card-text">Learn about the ongoing renovation efforts to preserve the Meenakshi Temple's architectural heritage.</p>
+             
+              <a href="readmore.html" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Interactive Map</h2>
+    
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2314069.579008029!2d75.47743288492097!3d19.876165230021625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd5d55555555555%3A0xf9a0e6b9b436d4f2!2sIndia!5e0!3m2!1sen!2sin!4v1646450252973!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Support Us</h2>
+ 
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        <p>Your generous donations help us maintain and preserve these sacred temples for future generations. Thank you for your support!</p>
+       
+        <form id="donationForm">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label for="amount">Donation Amount:</label>
+            <input type="number" class="form-control" id="amount" placeholder="Enter donation amount">
+          </div>
+          <button type="submit" class="btn btn-primary">Donate Now</button>
+        </form>
+       
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="text-center py-4">
+  <p>&copy; 2024 Indian Temples</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+ 
+  $(document).ready(function(){
+    $("#donationForm").submit(function(event){
+      event.preventDefault();
+      var name = $("#name").val();
+      var email = $("#email").val();
+      var amount = $("#amount").val();
+      if(name !== "" && email !== "" && amount !== ""){
+       
+        alert("Thank you, " + name + ", for your donation of $" + amount + "!");
+        $("#name").val("");
+        $("#email").val("");
+        $("#amount").val("");
+      } else {
+        alert("Please fill in all fields.");
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
+

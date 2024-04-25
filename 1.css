@@ -1,0 +1,53 @@
+.thumbnail {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .thumbnail img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .thumbnail .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    color: #fff;
+  }
+  
+  #bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+  }
+  .testimonial {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial p {
+    margin-bottom: 10px;
+  }
+  
+  .testimonial p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .testimonial em {
+    font-style: italic;
+    color: #666;
+  }
+  
